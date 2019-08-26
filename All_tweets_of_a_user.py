@@ -6,10 +6,10 @@ import csv
 
 #Twitter API credentials
 
-consumer_key = "pf2lEelcb7JMXCKElmCYh1mPX"
-consumer_secret = "S8NabhiuhUaH9zE3qd7fLtQ4TkoPA8kjY37AZKuPAGysYxlKfn"
-access_key = "1145587541904515072-c7lDuXwmHgbUvix5x6i0PHXtaejkFj"
-access_secret = "AyhlxWGYpcVBRSnu7lJJKlcIIHdtlfBdd8ITHwK34Q4rA"
+consumer_key = "2lEelcb7JMXCKElmCYh1X"
+consumer_secret = "bhiuhUaH9zE3qd7fLtQ4TkoPA8kjY37AZKuPAGysYxlKfn"
+access_key = "7541904515072-c7lDuXwmHgbUvix5x6i0PHXtaejkFj"
+access_secret = "WGYpcVBRSnu7lJJKlcIIHdtlfBdd8ITH34Q4rA"
 
 
 def get_all_tweets(screen_name):
