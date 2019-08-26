@@ -11,10 +11,10 @@ url = 'https://api.twitter.com/1.1/statuses/user_timeline.json' ### url to Twitt
 pms = {'screen_name' : screen_name, 'count' : 10, 'lang' : 'en'} ### parameters according to Twitter API, max of 100 tweets
 
 
-consumer_key = "pf2lEelcb7JMXCKElmCYh1mPX"
-consumer_secret = "S8NabhiuhUaH9zE3qd7fLtQ4TkoPA8kjY37AZKuPAGysYxlKfn"
-access_token = "1145587541904515072-c7lDuXwmHgbUvix5x6i0PHXtaejkFj"
-access_token_secret = "AyhlxWGYpcVBRSnu7lJJKlcIIHdtlfBdd8ITHwK34Q4rA"
+consumer_key = "lcb7JMXCElmCYh1mPX"
+consumer_secret = "abhiuhUaH9zE3qd7fLtQ4TkoPA8kY37AZKuPAGysYxlKfn"
+access_token = "541904515072-cDuXwmHgbUvix5x6i0PHXtaejkFj"
+access_token_secret = "WGYpcVBRS7lJJKlcIIHdtlfBdd8ITHwK344rA"
     
 auth = OAuth1(consumer_key, consumer_secret, access_token, access_token_secret)	
  
@@ -84,13 +84,7 @@ for i in range(length):
 url = 'https://api.twitter.com/1.1/followers/ids.json' ### url to Twitter API
 
 pms = {'screen_name' : screen_name, 'count' :99,  'lang' : 'en'} ### parameters according to Twitter API, max of 100 tweets
-
-
-consumer_key = "pf2lEelcb7JMXCKElmCYh1mPX"
-consumer_secret = "S8NabhiuhUaH9zE3qd7fLtQ4TkoPA8kjY37AZKuPAGysYxlKfn"
-access_token = "1145587541904515072-c7lDuXwmHgbUvix5x6i0PHXtaejkFj"
-access_token_secret = "AyhlxWGYpcVBRSnu7lJJKlcIIHdtlfBdd8ITHwK34Q4rA"
-    
+  
 auth = OAuth1(consumer_key, consumer_secret, access_token, access_token_secret)	
  
 res = requests.get(url, params=pms, auth=auth)
